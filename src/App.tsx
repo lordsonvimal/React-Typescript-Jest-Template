@@ -1,7 +1,7 @@
-import React, { ReactElement } from "react";
+import React  from "react";
 
-const App = (): ReactElement => (
-    <h1>Template React and TypeScript App!</h1>
+const App = (): JSX.Element => (
+  <h1>Template APP</h1>
 );
 
 export default App;

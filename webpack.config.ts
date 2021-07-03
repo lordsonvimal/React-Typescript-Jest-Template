@@ -2,8 +2,7 @@ import path from "path";
 import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 
-let config: any;
-config = {
+const config = {
     entry: "./src/index.tsx",
     mode: "development",
     devtool: "eval-source-map",

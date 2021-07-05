@@ -1,4 +1,6 @@
-module.exports = {
+import type {Config} from '@jest/types';
+
+const config: Config.InitialOptions = {
   clearMocks: true,
   collectCoverageFrom: [
     "**/*.{ts,tsx,js,jsx}"
@@ -26,4 +28,6 @@ module.exports = {
   },
   // Module file extensions for importing
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"]
-}
+};
+
+export default config;
